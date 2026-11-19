@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Linha de Código | Blog de programação</title>
+  <meta name="description" content="Artigos, tutoriais e dicas de programação, Java e desenvolvimento web.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,700;12..96,800&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main>
+    <section class="hero wrap">
+      <h1>Programar também se aprende <mark>escrevendo.</mark></h1>
+      <p>Tutoriais, dicas e notas de estudo sobre Java, web e o dia a dia de quem está construindo software.</p>
+      <form class="search" id="search-form" role="search">
+        <input id="search" type="search" placeholder="Buscar por título, resumo ou conteúdo" aria-label="Buscar artigos" maxlength="100">
+        <button type="submit">Buscar</button>
+      </form>
+    </section>
+    <section class="wrap" aria-labelledby="lista">
+      <h2 id="lista" class="sr" style="position:absolute;left:-9999px">Artigos publicados</h2>
+      <div class="filters" id="filters" aria-label="Filtrar por categoria"></div>
+      <div id="grid" class="grid" aria-live="polite"></div>
+      <nav class="pager" id="pager" aria-label="Paginação"></nav>
+    </section>
+  </main>
+  <script src="js/common.js"></script>
+  <script src="js/home.js"></script>
+</body>
+</html>
